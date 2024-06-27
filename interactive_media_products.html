@@ -1,0 +1,108 @@
+<!DOCTYPE html><html lang="en"><head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>E-Portfolio Josif Mitsanski - Professional Skills</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" href="/assets/favicon.ico" type="image/x-icon">
+  <script src="https://kit.fontawesome.com/93c5cbfd3e.js" crossorigin="anonymous"></script>
+  <script src="index.js"></script>
+  <script type="text/javascript" src="../../cdn.jsdelivr.net/npm/emailjs-com%403/dist/email.min.js"></script>
+  <script type="text/javascript">
+    (function () {
+      emailjs.init("user_K1PoFs8pB2YVWStDxrUls");
+    })();
+  </script>
+  <style>
+ .btn:link,
+.btn:visited {
+ text-transform: uppercase;
+ text-decoration: none;
+ color: rgb(27, 27, 27);
+ padding: 10px 30px;
+ border: 1px solid;
+ border-radius: 1000px;
+ display: inline-block;
+ transition: all .2s;
+ position: relative;
+}
+
+.btn:hover {
+ transform: translateY(-5px);
+ box-shadow: 0 10px 20px rgba(27, 27, 27, .5);
+}
+
+.btn:active {
+ transform: translateY(-3px);
+}
+
+.btn::after {
+ content: "";
+ display: inline-block;
+ height: 100%;
+ width: 100%;
+ border-radius: 100px;
+ top: 0;
+ left: 0;
+ position: absolute;
+ z-index: -1;
+ transition: all .3s;
+}
+
+.btn:hover::after {
+ background-color: rgb(0, 238, 255);
+ transform: scaleX(1.4) scaleY(1.5);
+ opacity: 0;
+}
+  </style>
+</head>
+
+<body>
+  <section id="landing-page" onmousemove="moveBackground(event)">
+      <nav>
+          <a href="index.html">
+          </a>
+          <ul class="nav__link--list">
+            <li class="nav__link" onclick="toggleModal()">
+              <a href="index.html" class="
+                nav__link--anchor
+                link__hover-effect
+                link__hover-effect--black
+              ">Back</a>
+            </li>
+            <li class="nav__link click" onclick="toggleContrast()">
+              <a href="#" class="
+                nav__link--anchor
+                link__hover-effect
+                link__hover-effect--black
+              "><i class="fas fa-adjust"></i></a>
+            </li>
+          </ul>
+        </nav>
+        <div id="outcomes-container">
+          <section id="ict-outcomes">
+            <a href="projects/project_x.html" class="btn"> Project X</a>
+            <br>  
+            <br>
+            <a href="projects/portfolio_project.html" class="btn"> Portfolio Project</a>
+            <br>
+            <br>
+            <a href="projects/group_project_1.html" class="btn"> Group Project 1</a>
+            <br>
+            <br>
+            <a href="projects/group_project_2.html" class="btn"> Group Project 2</a>
+            <br>
+            <br>
+            <a href="projects/group_project_3.html" class="btn"> Group Project 3</a>
+              <a href="projects/group_project_3.html" class="btn-link">
+            </section>
+      </div>
+        <img src="assets/semi%20circle.svg" class="shape shape--0">
+        <img src="assets/squiggly.svg" class="shape shape--2">
+        <img src="assets/circle.svg" class="shape shape--3">
+        <img src="assets/circle.svg" class="shape shape--5">
+        <img src="assets/squiggly.svg" class="shape shape--6">
+        <img src="assets/semi%20circle.svg" class="shape shape--8">
+  </section>
+</body>
+

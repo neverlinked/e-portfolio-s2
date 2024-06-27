@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-Portfolio Josif Mitsanski - Group Project 3 - ExploreBreda's Minigame</title>
+    <link rel="stylesheet" href="/style.css">
+    <link rel="icon" href="/assets/favicon.ico" type="image/x-icon">
+    <script src="https://kit.fontawesome.com/93c5cbfd3e.js" crossorigin="anonymous"></script>
+    <script src="/index.js"></script>
+    <script type="text/javascript" src="../../cdn.jsdelivr.net/npm/emailjs-com%403/dist/email.min.js"></script>
+    <script type="text/javascript">
+      (function () {
+        emailjs.init("user_K1PoFs8pB2YVWStDxrUls");
+      })();
+    </script>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+
+        .container {
+            max-width: 1000px;
+            margin: auto;
+            overflow: auto;
+            padding: 20px;
+        }
+
+        .section {
+            background: #fff;
+            margin: 20px 0;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .section-title {
+            font-size: 2em;
+            margin-bottom: 10px;
+        }
+
+        .project-phase {
+            margin-bottom: 20px;
+        }
+
+        .phase-title {
+            font-size: 1.5em;
+            margin-bottom: 10px;
+        }
+
+        .phase-description {
+            margin-bottom: 10px;
+        }
+
+        .document-link,
+        .prototype-link,
+        .utpd-link {
+            display: block;
+            margin-bottom: 10px;
+            color: #007BFF;
+            text-decoration: none;
+        }
+
+        .document-link:hover,
+        .prototype-link:hover,
+        .utpd-link:hover {
+            text-decoration: underline;
+        }
+
+        .example-image,
+        .course-image,
+        .utpd-image,
+        .before-after-image,
+        .colors-image,
+        .logo-branding-image {
+            width: 100%;
+            height: auto;
+            border-radius: 5px;
+            margin-bottom: 20px;
+        }
+
+        .highlight-green {
+            color: green;
+        }
+
+        .highlight-blue {
+            color: blue;
+        }
+
+        .highlight-orange {
+            color: orange;
+        }
+
+        .highlight-purple {
+            color: purple;
+        }
+
+        .highlight-red {
+            color: red;
+        }
+
+        .subsection-title {
+            font-size: 1.2em;
+            margin-top: 20px;
+            margin-bottom: 10px;
+        }
+
+        .inline-link {
+            color: #007BFF;
+            text-decoration: none;
+        }
+
+        .inline-link:hover {
+            text-decoration: underline;
+        }
+
+        ul.sources {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        ul.sources li {
+            margin-bottom: 5px;
+        }
+    </style>
+</head>
+<body>
+    <section id="landing-page" onmousemove="moveBackground(event)">
+        <nav>
+            <a href="/interactive_media_products.html">
+            </a>
+            <ul class="nav__link--list">
+              <li class="nav__link" onclick="toggleModal()">
+                <a href="/interactive_media_products.html" class="
+                  nav__link--anchor
+                  link__hover-effect
+                  link__hover-effect--black
+                ">Back</a>
+              </li>
+            </ul>
+          </nav>
+    <div class="container">
+        <section id="group-project-3-explorebreda-minigame" class="section">
+            <h1 class="section-title">Group Project 3 - ExploreBreda’s Minigame</h1>
+
+            <div class="project-phase">
+                <h2 class="phase-title">Research</h2>
+                <p class="phase-description">I created the following survey in order to find out if people would have interest in the Breda Tic-Tac-Toe game, as well as finding out which X in the logo is the most likely for them to click.</p>
+                <a href="https://docs.google.com/spreadsheets/d/1tdNulpGRnJRkR5SWz5IHU5OCvUI-NPGWNa1M38w_rLM/edit" class="document-link">Link to Survey Responses</a>
+            </div>
+
+            <div class="project-phase">
+                <h2 class="phase-title">Survey Analysis</h2>
+                <img src="/assets/survey_image_1.png" alt="Survey Image 1" class="example-image">
+                <img src="/assets/survey_image_2.png" alt="Survey Image 2" class="example-image">
+                <img src="/assets/survey_image_3.png" alt="Survey Image 3" class="example-image">
+                <img src="/assets/survey_image_4.png" alt="Survey Image 4" class="example-image">
+            </div>
+
+            <div class="project-phase">
+                <h2 class="phase-title">Survey Conclusion</h2>
+                <p class="phase-description">Based on the survey responses, we found a significant interest in the Breda Tic-Tac-Toe game among the participants. The analysis also revealed which X in the logo was the most appealing and clickable for the users. This insight will be invaluable in refining the game's design and marketing strategy.</p>
+            </div>
+
+            <div class="project-phase">
+                <h2 class="phase-title">Prototyping</h2>
+                <p class="phase-description">Based on my idea and the research performed, each group member performed a figma prototype and here's mine.</p>
+                <a href="https://www.figma.com/design/KZHwWKiUKPQJItB04N6VFZ/Untitled?node-id=0-1&t=4VG45IcFqAUKCKL3-1" class="document-link">Link to Full Prototype</a>
+                <img src="/assets/tictac_prototype.png">
+
+            </div>
+        </section>
+
+    </div>
+    </section>
+</body>
+</html>

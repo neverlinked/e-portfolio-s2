@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-Portfolio Josif Mitsanski - Development and Version Control</title>
+    <link rel="stylesheet" href="/style.css">
+    <link rel="icon" href="/assets/favicon.ico" type="image/x-icon">
+    <script src="https://kit.fontawesome.com/93c5cbfd3e.js" crossorigin="anonymous"></script>
+    <script src="/index.js"></script>
+    <script type="text/javascript" src="../../cdn.jsdelivr.net/npm/emailjs-com%403/dist/email.min.js"></script>
+    <script type="text/javascript">
+      (function () {
+        emailjs.init("user_K1PoFs8pB2YVWStDxrUls");
+      })();
+    </script>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+
+        .container {
+            max-width: 1000px;
+            margin: auto;
+            overflow: auto;
+            padding: 20px;
+        }
+
+        .section {
+            background: #fff;
+            margin: 20px 0;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .section-title {
+            font-size: 2em;
+            margin-bottom: 10px;
+        }
+
+        .project-phase {
+            margin-bottom: 20px;
+        }
+
+        .phase-title {
+            font-size: 1.5em;
+            margin-bottom: 10px;
+        }
+
+        .phase-description {
+            margin-bottom: 10px;
+        }
+
+        .document-link,
+        .prototype-link,
+        .utpd-link {
+            display: block;
+            margin-bottom: 10px;
+            color: #007BFF;
+            text-decoration: none;
+        }
+
+        .document-link:hover,
+        .prototype-link:hover,
+        .utpd-link:hover {
+            text-decoration: underline;
+        }
+
+        .example-image,
+        .course-image,
+        .utpd-image,
+        .before-after-image,
+        .colors-image,
+        .logo-branding-image {
+            width: 100%;
+            height: auto;
+            border-radius: 5px;
+            margin-bottom: 20px;
+        }
+
+        .highlight-green {
+            color: green;
+        }
+
+        .highlight-blue {
+            color: blue;
+        }
+
+        .highlight-orange {
+            color: orange;
+        }
+
+        .highlight-purple {
+            color: purple;
+        }
+
+        .highlight-red {
+            color: red;
+        }
+
+        .subsection-title {
+            font-size: 1.2em;
+            margin-top: 20px;
+            margin-bottom: 10px;
+        }
+
+        .inline-link {
+            color: #007BFF;
+            text-decoration: none;
+        }
+
+        .inline-link:hover {
+            text-decoration: underline;
+        }
+
+        ul.sources {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        ul.sources li {
+            margin-bottom: 5px;
+        }
+    </style>
+</head>
+<body>
+    <section id="landing-page" onmousemove="moveBackground(event)">
+        <nav>
+            <a href="/interactive_media_products.html">
+            </a>
+            <ul class="nav__link--list">
+              <li class="nav__link" onclick="toggleModal()">
+                <a href="/index.html" class="
+                  nav__link--anchor
+                  link__hover-effect
+                  link__hover-effect--black
+                ">Back</a>
+              </li>
+            </ul>
+          </nav>
+    <div class="container">
+        <section id="development-and-version-control" class="section">
+            <h1 class="section-title">Development and Version Control</h1>
+
+            <div class="project-phase">
+                <h2 class="phase-title">JavaScript Mastery</h2>
+                <p class="phase-description">This semester I went on a journey to solidify my understanding of core JavaScript concepts. Through workshops and self-study, I honed my skills in areas like: rules and variables, scope, operation, data types, functions, objects, events, arrays, if and switch statements, comparisons, logical operators and different types of loops.</p>
+                <p>Additionally, I learned VueJS and some React and passed an interview for a Full-Stack developer at a company in Eindhoven (More about that in Learning Outcome 5).</p>
+                <p>I also looked for and applied good practices and common practices that people in big tech companies use like making everything semantic (instead of just using divs), using naming conventions, making everything smoothly responsive, keeping the code clean and clear, so it’s readable and people after can easily follow up.</p>
+                <p>I learned how to make a smooth dark theme change with DOM manipulation. See it yourself by clicking the dark theme in my portfolio website.</p>
+            </div>
+
+            <div class="project-phase">
+                <h2 class="phase-title">Advanced JavaScript Skills</h2>
+                <p class="phase-description">I also upgraded my JavaScript skills! Learned how to make things in the background move by making elements with the class shape move based on the mouse’s coordinates. Everybody asks me if I use threeJS or some frameworks, but everything I coded is vanilla js and css.</p>
+                <img src="/assets/js_movements.png" alt="JavaScript Background Movement" class="example-image">
+                <p class="phase-description">I also made the website fully responsive, to maintain high quality website standards.</p>
+                <img src="/assets/website_responsive.png" alt="Responsive Website" class="example-image">
+                <img src="/assets/website_responsive_2.png" alt="Responsive Website 2" class="example-image">
+            </div>
+
+            <div class="project-phase">
+                <h2 class="phase-title">Bringing Concepts to Life</h2>
+                <p class="phase-description">To solidify my grasp of JavaScript, I actively participated in workshops and applied my knowledge to create engaging projects:</p>
+                <ul>
+                    <li><b>Tic-Tac-Toe with a Twist:</b> I built a classic tic-tac-toe game, but with a fun twist! Upon winning, the successful combination lights up in green and a celebratory Pikachu animation dances across the screen. This project demonstrates my understanding of game logic, conditional statements (if statements), and DOM manipulation (changing box colors and displaying animations).</li>
+                    <img src="/assets/tic_tac_toe.png" alt="Tic-Tac-Toe with a Twist" class="example-image">
+                    <li><b>Pokemon Pixel Art:</b> I created a pixelated rendition of a Pokemon, showcasing my ability to translate visual elements into code and understanding of grid systems.</li>
+                    <img src="/assets/pokemon_pixel_art.png" alt="Pokemon Pixel Art" class="example-image">
+                    <li><b>Real-Time Chat Application (Advanced):</b> This project delves deeper into server-side JavaScript (Node.js) for real-time interaction and utilizes Socket.io for communication, allowing users to chat in real-time.</li>
+                    <img src="/assets/real_time_chat.png" alt="Real-Time Chat Application" class="example-image">
+                    <li><b>Pokemon Fighting Game using an API (Advanced):</b> Taking my skills a step further, I built a Pokemon fighting game by fetching data from an external API and implementing the mechanics using JavaScript.</li>
+                    <img src="/assets/pokemon_fighting_game.png" alt="Pokemon Fighting Game" class="example-image">
+                    <li><b>AR Pikachu:</b> Creating and running an Augmented Reality Server Application, displaying a 3D Model in real life through a smartphone camera.</li>
+                    <img src="/assets/ar_pikachu.png" alt="AR Pikachu" class="example-image">
+                    <li><b>Github Web Accessibility Plan:</b> I ran an evaluation tool analysis and made a plan to make the GitHub website more optimized for visually impaired people.</li>
+                    <img src="/assets/github_app.png" alt="Github Web Accessibility Plan" class="example-image">
+                </ul>
+                <a href="https://github.com/neverlinked/Mini-Games" class="document-link">REPOSITORY LINK</a>
+            </div>
+
+            <div class="project-phase">
+                <h2 class="phase-title">Group Projects and Final Projects</h2>
+                <p class="phase-description">I was the leader of my group project for Breda’s easter egg, where I came up with the idea and led the coding of an AI Tic-Tac-Toe game with rewards. During the research process, I found out that the most common way to implement an AI robot in tic-tac-toe was the minimax algorithm.</p>
+                <img src="/assets/ai_ttt.png" alt="AI Tic-Tac-Toe Game" class="example-image">
+                <p class="phase-description">As a final coding project, I coded my Project X website with vanilla HTML, CSS, and JS, which can be seen by visiting the following link:</p>
+                <a href="https://dynastynutrition.vercel.app/" class="document-link">https://dynastynutrition.vercel.app/</a>
+                <img src="/assets/project_x_website.png" alt="Project X Website" class="example-image">
+            </div>
+        </section>
+    </div>
+    </section>
+</body>
+</html>
